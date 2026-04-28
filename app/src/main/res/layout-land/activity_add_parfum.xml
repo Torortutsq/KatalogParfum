@@ -24,19 +24,9 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toStartOf="@id/guidelineAdd">
 
-        <com.google.android.material.button.MaterialButton
-            android:id="@+id/btnBackAdd"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Kembali"
-            android:textAllCaps="false"
-            app:backgroundTint="@color/md_theme_light_secondary"
-            app:cornerRadius="16dp" />
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
             android:background="@drawable/bg_hero"
             android:orientation="vertical"
             android:padding="20dp">
@@ -206,6 +196,17 @@
                     android:textAllCaps="false"
                     android:textStyle="bold"
                     app:backgroundTint="@color/md_theme_light_primary"
+                    app:cornerRadius="18dp" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnBackAdd"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Kembali ke Home"
+                    android:textAllCaps="false"
+                    android:textStyle="bold"
+                    app:backgroundTint="@color/md_theme_light_secondary"
                     app:cornerRadius="18dp" />
             </LinearLayout>
         </ScrollView>
