@@ -56,6 +56,8 @@ Digunakan untuk mengurutkan data parfum berdasarkan nama:
 
 ## Screenshot Aplikasi
 
+## Potrait
+
 ### 1. Halaman Utama
 Menampilkan katalog parfum designer, kolom pencarian, tombol sorting, dan tombol tambah data.
 
@@ -80,3 +82,31 @@ Menampilkan form input data parfum dengan validasi isian.
 Menampilkan detail parfum yang dipilih dari katalog.
 
 <img width="200" height="500" alt="Screenshot_20260502_170204" src="https://github.com/user-attachments/assets/562b31f7-be10-43ca-bfb8-1687081f6ebf" />
+
+## Landscape
+
+### 1. Halaman Utama
+Menampilkan katalog parfum designer, kolom pencarian, tombol sorting, dan tombol tambah data.
+
+<img width="2400" height="1080" alt="Screenshot_20260502_173744" src="https://github.com/user-attachments/assets/1f4d8a69-8660-4c77-bedd-1ddded1d2e42" />
+
+### 2. Halaman Utama dengan Sort A-Z
+Menampilkan data parfum yang telah diurutkan dari A-Z menggunakan Bubble Sort.
+
+<img width="2400" height="1080" alt="Screenshot_20260502_174115" src="https://github.com/user-attachments/assets/3428bf16-87b9-4898-a53e-e42cbec5e365" />
+
+### 3. Halaman Utama dengan Sort Z-A
+Menampilkan data parfum yang telah diurutkan dari Z-A menggunakan Bubble Sort.
+
+<img width="2400" height="1080" alt="Screenshot_20260502_174157" src="https://github.com/user-attachments/assets/dbd33f01-5381-405b-85cb-932bbff2aaa7" />
+
+### 4. Halaman Tambah Parfum
+Menampilkan form input data parfum dengan validasi isian.
+
+<img width="2400" height="1080" alt="Screenshot_20260502_174305" src="https://github.com/user-attachments/assets/2d4b7239-881d-4e18-b227-3affdd07d3c2" />
+
+### 5. Halaman Detail Parfum
+Menampilkan detail parfum yang dipilih dari katalog.
+
+<img width="2400" height="1080" alt="Screenshot_20260502_174222" src="https://github.com/user-attachments/assets/5888da9e-5b3d-45e4-a563-37d81cee5852" />
+
