@@ -2,6 +2,7 @@ package com.example.nephora
 
 import android.content.Context
 import android.content.Intent
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -36,14 +37,19 @@ class ParfumAdapter(
         holder.tvHargaParfum.text = "Rp " + String.format("%,d", parfum.harga).replace(',', '.')
 
         holder.itemView.setOnClickListener {
-            val intent = Intent(context, DetailActivity::class.java)
-            intent.putExtra("nama", parfum.nama)
-            intent.putExtra("brand", parfum.brand)
-            intent.putExtra("gender", parfum.gender)
-            intent.putExtra("aroma", parfum.aroma)
-            intent.putExtra("ketahanan", parfum.ketahanan)
-            intent.putExtra("harga", "Rp " + String.format("%,d", parfum.harga).replace(',', '.'))
-            context.startActivity(intent)
+            try {
+                Log.d("42430011", "Item parfum diklik: ${parfum.nama}")
+                val intent = Intent(context, DetailActivity::class.java)
+                intent.putExtra("nama", parfum.nama)
+                intent.putExtra("brand", parfum.brand)
+                intent.putExtra("gender", parfum.gender)
+                intent.putExtra("aroma", parfum.aroma)
+                intent.putExtra("ketahanan", parfum.ketahanan)
+                intent.putExtra("harga", "Rp " + String.format("%,d", parfum.harga).replace(',', '.'))
+                context.startActivity(intent)
+            } catch (e: Exception) {
+                Log.e("42430011", "Gagal membuka detail parfum", e)
+            }
         }
     }
 
